@@ -1,0 +1,9 @@
+name = "jsonbin-proxy"
+main = "cloudflare/worker.js"
+compatibility_date = "2024-05-26"
+
+[vars]
+# nepřidávej JSONBIN_KEY sem! budeš ho přidávat přes Cloudflare UI
+
+[env.production]
+workers_dev = true
